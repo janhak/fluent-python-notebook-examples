@@ -1,3 +1,5 @@
 .idea
 .python-version
 .ipynb*
+.cache
+__pycache__/
