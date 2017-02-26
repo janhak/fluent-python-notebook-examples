@@ -1,4 +1,4 @@
->>> from vector_v3 import Vector
+>>> from vector_v5 import Vector
 >>> Vector([3.1, 4.2])
 Vector([3.1, 4.2])
 >>> Vector((3, 4, 5))
@@ -26,3 +26,9 @@ TypeError: Vector indices must be integers
 0.0
 >>> v1.t
 3.0
+>>> format(Vector([-1, -1, -1, -1]), 'h')
+'<2.0, 2.0943951023931957, 2.186276035465284, 3.9269908169872414>'
+>>> format(Vector([2, 2, 2, 2]), '.3eh')
+'<4.000e+00, 1.047e+00, 9.553e-01, 7.854e-01>'
+>>> format(Vector([0, 1, 0, 0]), '0.5fh')
+'<1.00000, 1.57080, 0.00000, 0.00000>'
