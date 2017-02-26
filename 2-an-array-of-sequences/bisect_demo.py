@@ -40,9 +40,8 @@ if __name__ == '__main__':
     print('haystack ->', ' '.join('%2d' % n for n in HAYSTACK))
     demo(bisect_fn)
 
-    print('Another nice Recipe with bisect')
+    print('Another recipe with bisect')
     print([grade(score) for score in [33, 99, 77, 70, 89, 90, 100]])
 
     print('Final demo for insort')
     insort_demo()
-
