@@ -1,0 +1,21 @@
+>>> from bingoaddable import AddableBingoCage
+>>> vowels = 'AEIOU'
+>>> globe = AdddableBingoCage(vowels)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'AdddableBingoCage' is not defined
+>>> globe = AddableBingoCage(vowels)
+>>> globe.inspect()
+('A', 'E', 'I', 'O', 'U')
+>>> globe.pick() in vowels
+True
+>>> len(globe.inspect())
+4
+>>> globe2 = AddableBingoCage('XYZ')
+>>> globe3 = globe + globe2
+>>> len(globe3.inspect())
+7
+>>> void = globe + [10, 20]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'AddableBingoCage' and 'list'
