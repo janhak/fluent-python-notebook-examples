@@ -2,4 +2,5 @@
 .python-version
 .ipynb*
 .cache
+nohup.out
 __pycache__/
